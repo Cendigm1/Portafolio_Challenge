@@ -1,0 +1,85 @@
+.container{
+    background-color: #000000;
+    padding: 1.5rem 1.2rem 5rem 1.2rem;
+    border-bottom:solid #39ff14;
+}
+.barra__nav{
+    width: 100%;
+    border-bottom: solid #39ff14;
+    padding: 0 0 1rem 0;
+    
+}
+.lista__nav{
+    display: flex;
+    justify-content: end;
+
+}
+.lista__item{
+    margin-right: 1.75rem;
+    display: flex;
+}
+.item{
+    color: white;
+    text-decoration: none;
+}
+.item:hover{
+    color: black;
+    font-size: 1.10rem;
+    font-weight: bold;
+    border: solid #fff;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.titulo{
+    text-shadow: 0 0 30px #fff;
+    text-align: center;
+    font-family: 'Handjet', cursive;
+    font-size: 4rem;
+    color: #39ff14
+}
+.acerca__de{
+    color: #f9f9f9f9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-style: oblique;
+}
+.titulo__descripcion{
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    color: black;
+    background-color: #39ff14;
+    width: 50%; 
+    border-radius: 10px;
+    box-shadow: 0 0 30px #fff;
+}
+.imagen__perfil{
+    background-image: url(Logo.jpg);
+    margin-right: 2rem;
+    width:200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    border: solid 10px #39ff14;
+    border-radius: 50%;
+    box-shadow: 0 0 30px #fff;
+}
+.sobre{
+    background-color: black;
+    padding: 3rem 10rem;
+}
+.sobre__titulo{
+    text-shadow: 0 0 30px white;
+    font-style: italic;
+    padding-bottom: 1.5rem;
+    font-size: 3rem;
+    font-family: 'handjet', cursive;
+    color:#e6ed07;
+    font-weight: bold;
+    text-align: right;
+}
+.sobre__texto{
+    padding: 2rem 0;
+    font-size: 1.25rem;
+    text-align: right;
+    color: white;
+}
