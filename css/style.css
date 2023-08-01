@@ -31,6 +31,7 @@
     background-color: #fff;
 }
 .titulo{
+    margin-bottom: 1.5rem;
     text-shadow: 0 0 30px #fff;
     text-align: center;
     font-family: 'Handjet', cursive;
@@ -60,7 +61,7 @@
     padding: 1.5rem 2rem 0 0;
 }
 .imagen__perfil{
-    background-image: url(/Imagenes/Foto-mia.jpg);
+    background-image: url(Imagenes/Yo.jpg);
     margin-right: 2rem;
     width:200px;
     height: 200px;
