@@ -6,8 +6,8 @@
 .barra__nav{
     width: 100%;
     border-bottom: solid #39ff14;
-    padding: 0 0 1rem 0;
-    
+    padding: 1.5rem 0 1.5rem 0;
+    background-color: #000000;
 }
 .lista__nav{
     display: flex;
@@ -35,7 +35,8 @@
     text-align: center;
     font-family: 'Handjet', cursive;
     font-size: 4rem;
-    color: #39ff14
+    color: #39ff14;
+    font-weight: bold;
 }
 .acerca__de{
     color: #f9f9f9f9;
@@ -53,8 +54,13 @@
     border-radius: 10px;
     box-shadow: 0 0 30px #fff;
 }
+.redes{
+    background-color: #39ff14;
+    width:50px;
+    padding: 1.5rem 2rem 0 0;
+}
 .imagen__perfil{
-    background-image: url(Logo.jpg);
+    background-image: url(/Imagenes/Foto-mia.jpg);
     margin-right: 2rem;
     width:200px;
     height: 200px;
@@ -64,8 +70,10 @@
     box-shadow: 0 0 30px #fff;
 }
 .sobre{
+    border-bottom:solid #e6ed07;
     background-color: black;
     padding: 3rem 10rem;
+    
 }
 .sobre__titulo{
     text-shadow: 0 0 30px white;
@@ -81,5 +89,12 @@
     padding: 2rem 0;
     font-size: 1.25rem;
     text-align: right;
-    color: white;
+    padding: 1.5rem;
+    color: black;
+    background-color: #e6ed07;
+    border-radius: 10px;
+    box-shadow: 0 0 30px #fff;
+}
+.container__skills{
+    background-color: black;
 }
