@@ -60,7 +60,7 @@
     padding: 1.5rem 2rem 0 0;
 }
 .imagen__perfil{
-    background-image: url(/Imagenes/Foto-mia.jpg);
+    background-image: url(Imagenes/Foto-mia.jpg);
     margin-right: 2rem;
     width:200px;
     height: 200px;
